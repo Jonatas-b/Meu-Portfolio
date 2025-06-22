@@ -10,12 +10,16 @@
 <body>
   <header class="navbar">
     <div class="logo">
-  <span>J</span><span>ô</span><span>n</span><span>a</span><span>t</span><span>a</span><span>s</span>
-  <span>&nbsp;</span>
-  <span>B</span><span>a</span><span>t</span><span>i</span><span>s</span><span>t</span><span>a</span>
+  <span class="logo-nome">
+    <span>J</span><span>ô</span><span>n</span><span>a</span><span>t</span><span>a</span><span>s</span>
+  </span>
+  <br class="logo-break">
+  <span class="logo-nome">
+    <span>B</span><span>a</span><span>t</span><span>i</span><span>s</span><span>t</span><span>a</span>
+  </span>
 </div>
     <nav>
-      <ul>
+      <ul class="menu">
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#certificados">Certificados</a></li>
         <li><a href="#projetos">Projetos</a></li>
@@ -36,7 +40,7 @@
 
   <section id="sobre" class="sobre">
     <h3>Sobre Mim</h3>
-    <p>
+    <p id="sobre-texto">
       Tenho 17 anos e atualmente estou no terceiro ano do ensino médio integrado ao curso técnico em Desenvolvimento de Sistemas, onde venho desenvolvendo minha base na área da programação e na construção de soluções digitais. <br>
 
 Ao longo da minha formação, participei de projetos práticos. Essas experiências me proporcionaram contato direto com conceitos importantes de lógica, estruturação de código e interface com o usuário, despertando ainda mais meu interesse pelo desenvolvimento de software. <br>
@@ -59,12 +63,13 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
       <div class="cert-info">
         <h4>HTML</h4>
         <p>Mimo • 2025</p>
-        <a href="certificados/Certificado MimoHTML.pdf" download class="btn">
-          <i class="fas fa-download"></i> Baixar</a>
       </div>
       <div class="cert-preview">
         <img src="certificados/Certificado MimoHTML.jpg" alt="Miniatura HTML" />
       </div>
+      <a href="certificados/Certificado MimoHTML.pdf" download class="btn">
+        <i class="fas fa-download"></i> Baixar
+      </a>
     </div>
 
     <!-- Certificado 2 -->
@@ -72,12 +77,13 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
       <div class="cert-info">
         <h4>Fundamentos de TI: Hardware e Software</h4>
         <p>Fundação Bradesco • 2025</p>
-        <a href="certificados/Certificado FundamentosTI.pdf" download class="btn">
-          <i class="fas fa-download"></i> Baixar</a>
       </div>
       <div class="cert-preview">
         <img src="certificados/Certificado FundamentosTI.jpg" alt="Miniatura Fundamentos de TI" />
       </div>
+      <a href="certificados/Certificado FundamentosTI.pdf" download class="btn">
+        <i class="fas fa-download"></i> Baixar
+      </a>
     </div>
 
     <!-- Certificado 3 -->
@@ -85,12 +91,13 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
       <div class="cert-info">
         <h4>Letramento Digital</h4>
         <p>Fundação Bradesco • 2025</p>
-        <a href="certificados/Certificado LetramentoDigital.pdf" download class="btn">
-          <i class="fas fa-download"></i> Baixar</a>
       </div>
       <div class="cert-preview">
         <img src="certificados/Certificado LetramentoDigital.jpg" alt="Miniatura Letramento Digital" />
       </div>
+      <a href="certificados/Certificado LetramentoDigital.pdf" download class="btn">
+        <i class="fas fa-download"></i> Baixar
+      </a>
     </div>
 
     <!-- Certificado 4 -->
@@ -98,12 +105,13 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
       <div class="cert-info">
         <h4>Cultura Digital</h4>
         <p>Fundação Bradesco • 2025</p>
-        <a href="certificados/Certificado CulturaDigital.pdf" download class="btn">
-          <i class="fas fa-download"></i> Baixar</a>
       </div>
       <div class="cert-preview">
         <img src="certificados/Certificado CulturaDigital.jpg" alt="Miniatura Cultura Digital" />
       </div>
+      <a href="certificados/Certificado CulturaDigital.pdf" download class="btn">
+        <i class="fas fa-download"></i> Baixar
+      </a>
     </div>
 
     <!-- Certificado 5 -->
@@ -111,18 +119,20 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
       <div class="cert-info">
         <h4>SharePoint</h4>
         <p>Fundação Bradesco • 2025</p>
-        <a href="certificados/Certificado SharePoint.pdf" download class="btn">
-          <i class="fas fa-download"></i> Baixar</a>
       </div>
       <div class="cert-preview">
         <img src="certificados/Certificado SharePoint.jpg" alt="Miniatura SharePoint" />
       </div>
+      <a href="certificados/Certificado SharePoint.pdf" download class="btn">
+        <i class="fas fa-download"></i> Baixar
+      </a>
     </div>
   </div>
 
   <div class="download-todos">
-    <a href="certificados/certificados.zip" download class="btn btn-todos">
-      <i class="fas fa-file-archive"></i> Baixar Todos os Certificados</a>
+    <a href="certificados/certificados.zip" download class="btn">
+      <i class="fas fa-file-archive"></i> Baixar Todos os Certificados
+    </a>
   </div>
 </section>
 
@@ -146,7 +156,7 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
     <div class="projeto">
       <h4>Gestor de Gastos Pessoais (em desenvolvimento)</h4>
       <p>Um sistema simples de controle financeiro, que coleta os dados do usuário, organiza os gastos em uma tabela e realiza o cálculo de saldo restante com base no salário informado. O projeto busca estimular o hábito de monitoramento financeiro e foi uma oportunidade para trabalhar com entrada de dados, estruturas condicionais e lógica aplicada a cálculos.</p>
-      <a href="https://jonatas-b.github.io/Gestor-de-Gastos/" class="btn" target="_blank">Em desenvolvimento</a>
+      <a href="https://jonatas-b.github.io/Gestor-de-Gastos/" class="btn" target="_blank">Ver projeto</a>
     </div>
 
     <div class="projeto">
@@ -158,7 +168,7 @@ Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e compe
     <div class="projeto">
       <h4>Portfólio Pessoal (em desenvolvimento)</h4>
       <p>Este próprio site representa um projeto prático e em constante evolução. Desenvolvido com HTML, CSS e JavaScript puros, é totalmente responsivo e foi inspirado em portfólios modernos e minimalistas. Serve como vitrine do meu trabalho e como ferramenta de aprendizado contínuo em design, acessibilidade e desenvolvimento web.</p>
-      <a href="" class="btn disabled">Em desenvolvimento</a>
+      <a href="" class="btn disabled">Ver projeto</a>
     </div>
     <!-- Mais projetos aqui -->
   </section>
