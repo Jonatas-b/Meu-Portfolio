@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./projetos/Portfolio.png" width="100%">
+  <img alt="projeto "Meu Portfólio" " src="./projetos/Portfolio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
