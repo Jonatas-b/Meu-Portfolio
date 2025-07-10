@@ -96,6 +96,25 @@ a {
   margin-bottom: 1rem;
 }
 
+/* Tamanho padrão para desktop */
+.hero h1, h2 {
+  font-size: 3rem;
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .hero h1, h2 {
+    font-size: 2.3rem;
+  }
+}
+
+/* Celulares grandes */
+@media (max-width: 600px) {
+  .hero h1, h2 {
+    font-size: 1.6rem;
+  }
+}
+
 /* Seções */
 section {
   margin: 6rem 0;
