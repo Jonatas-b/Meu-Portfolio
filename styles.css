@@ -141,18 +141,6 @@ section {
   }
 }
 
-/* Sub-títulos */
-/*.h3 {
-  display: flex;
-  justify-content: center;
-  width: 30%;
-  margin-bottom: 0px;
-  margin-left: 35%;
-  font-size: 1.3rem;
-
-  border-bottom: #64ffda 2px solid;
-}*/
-
 .card {
   background: #112240;
   border-radius: 10px;
@@ -207,6 +195,14 @@ section {
   padding: 2rem 0;
   color: #8892b0;
   font-size: 0.9rem;
+}
+
+#h3Cert {
+  margin-top: 1.1rem;
+}
+
+#h3Cont {
+  margin-top: 6rem;
 }
 
 .certificados h3,
@@ -446,5 +442,142 @@ section {
   .section-title::before {
     left: 5%;
     right: 5%;
+  }
+}
+
+.sobre {
+  height: 400px;
+  min-height: 69.6%;
+  max-height: 135%;
+  margin-bottom: 0;
+}
+
+.sobre {
+  min-height: 200px; /* ajuste conforme o tamanho do texto final */
+  justify-content: flex-start;
+  
+}
+
+#sobre-texto {
+  min-height: 300px; /* ajuste conforme necessário */
+  margin-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  #sobre-texto {
+    min-height: 630px; /* ajuste para telas menores */
+  }
+  
+  .sobre {
+    min-height: 400px; /* ajuste conforme o tamanho do texto final */
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  #sobre-texto {
+    min-height: 530px; /* ajuste para telas menores */
+  }
+  
+  .sobre {
+    min-height: 590px; /* ajuste conforme o tamanho do texto final */
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  #sobre-texto {
+    min-height: 830px; /* ajuste para telas menores */
+  }
+  
+  .sobre {
+    min-height: 800px; /* ajuste conforme o tamanho do texto final */
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #sobre-texto {
+    min-height: 930px; /* ajuste para telas menores */
+  }
+
+  .sobre {
+    min-height: 1000px; /* ajuste conforme o tamanho do texto final */
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  #sobre-texto {
+    min-height: 930px; /* ajuste para telas menores */
+  }
+
+  .sobre {
+    min-height: 1050px; /* ajuste conforme o tamanho do texto final */
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+.btnCert {
+  display: flex;
+  margin: 7rem 2rem;
+  margin-top: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.voltar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  left: 2rem;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #64ffda;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .voltar {
+    top: 1rem;
+    left: 2rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .voltar {
+    top: 1rem;
+    left: 1.8rem;
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 700px) {
+  .voltar {
+    top: 1.2rem;
+    left: 0.8rem;
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 600px) {
+  .voltar {
+    top: 1.2rem;
+    left: 0.6rem;
+    width: 30px;
+    height: 30px;
   }
 }
