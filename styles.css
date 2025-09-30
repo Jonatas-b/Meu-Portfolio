@@ -9,8 +9,17 @@
 }
 
 /* Roalgem suave */
-html {
-  scroll-behavior: smooth;
+html, body {
+   background-color: #FFDFB9;
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+   overscroll-behavior: none; /* bloqueia o scrool além do conteúdo */
+   scrollbar-width: none; /* esconde a barra (FireFox) */
+}
+
+/* esconde a barra (Chrome, Safari e Edge) */
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* Estilo base */
@@ -627,3 +636,4 @@ section {
   font-size: 0.9rem;
 
 }
+
