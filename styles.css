@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-*, *::before, *::after {
+*,
+*::before, *::after {
   box-sizing: border-box;
 }
 
@@ -26,7 +27,7 @@ html, body {
 body {
   background-color: #0a192f;
   color: #ccd6f6;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
   padding: 0 2rem;
@@ -39,25 +40,60 @@ body {
   animation: bounce 1.2s 1;
   animation-fill-mode: both;
 }
-.logo.animating span:nth-child(1)  { animation-delay: 0s; }
-.logo.animating span:nth-child(2)  { animation-delay: 0.10s; }
-.logo.animating span:nth-child(3)  { animation-delay: 0.20s; }
-.logo.animating span:nth-child(4)  { animation-delay: 0.30s; }
-.logo.animating span:nth-child(5)  { animation-delay: 0.40s; }
-.logo.animating span:nth-child(6)  { animation-delay: 0.50s; }
-.logo.animating span:nth-child(7)  { animation-delay: 0.60s; }
-.logo.animating span:nth-child(8)  { animation-delay: 0.70s; }
-.logo.animating span:nth-child(9)  { animation-delay: 0.80s; }
-.logo.animating span:nth-child(10) { animation-delay: 0.90s; }
-.logo.animating span:nth-child(11) { animation-delay: 1.00s; }
-.logo.animating span:nth-child(12) { animation-delay: 1.10s; }
-.logo.animating span:nth-child(13) { animation-delay: 1.20s; }
-.logo.animating span:nth-child(14) { animation-delay: 1.30s; }
-.logo.animating span:nth-child(15) { animation-delay: 1.40s; }
+.logo.animating span:nth-child(1) {
+  animation-delay: 0s;
+}
+.logo.animating span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.logo.animating span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.logo.animating span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.logo.animating span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.logo.animating span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.logo.animating span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.logo.animating span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.logo.animating span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.logo.animating span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.logo.animating span:nth-child(11) {
+  animation-delay: 1s;
+}
+.logo.animating span:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.logo.animating span:nth-child(13) {
+  animation-delay: 1.2s;
+}
+.logo.animating span:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.logo.animating span:nth-child(15) {
+  animation-delay: 1.4s;
+}
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .logo-break {
@@ -135,16 +171,19 @@ body {
   margin-bottom: 1rem;
 }
 /* Responsividade no tamanho dos textos da introdução */
-.hero h1, h2 {
+.hero h1,
+h2 {
   font-size: 3rem;
 }
 @media (max-width: 900px) {
-  .hero h1, h2 {
+  .hero h1,
+  h2 {
     font-size: 2.3rem;
   }
 }
 @media (max-width: 600px) {
-  .hero h1, h2 {
+  .hero h1,
+  h2 {
     font-size: 1.6rem;
   }
 }
@@ -226,14 +265,19 @@ section {
 
 /* Seção Sobre Mim */
 #sobre-texto::after {
-  content: '|'; /* Adiciona o caractere de barra vertical */
+  content: "|"; /* Adiciona o caractere de barra vertical */
   animation: blink 1s infinite;
   color: #64ffda;
   font-weight: bold;
 }
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 /* Impedir que o texto fique fazendo a página "pular" */
 .sobre {
@@ -241,7 +285,7 @@ section {
   min-height: 69.6%;
   max-height: 135%;
   margin-bottom: 0;
-  min-height: 200px; 
+  min-height: 200px;
   justify-content: flex-start;
 }
 #sobre-texto {
@@ -252,19 +296,19 @@ section {
 @media (max-width: 1000px) {
   #sobre-texto {
     min-height: 630px;
-  } 
+  }
   .sobre {
-    min-height: 400px; 
+    min-height: 400px;
     justify-content: flex-start;
     margin-bottom: 0;
   }
 }
 @media (max-width: 900px) {
   #sobre-texto {
-    min-height: 530px; 
-  } 
+    min-height: 530px;
+  }
   .sobre {
-    min-height: 590px; 
+    min-height: 590px;
     justify-content: flex-start;
     margin-bottom: 0;
   }
@@ -274,37 +318,39 @@ section {
     min-height: 830px;
   }
   .sobre {
-    min-height: 800px; 
+    min-height: 800px;
     justify-content: flex-start;
     margin-bottom: 0;
   }
 }
 @media (max-width: 600px) {
   #sobre-texto {
-    min-height: 930px; 
+    min-height: 930px;
   }
   .sobre {
-    min-height: 1000px; 
+    min-height: 1000px;
     justify-content: flex-start;
     margin-bottom: 0;
   }
 }
 @media (max-width: 500px) {
   #sobre-texto {
-    min-height: 930px; 
+    min-height: 930px;
   }
   .sobre {
-    min-height: 1050px; 
+    min-height: 1050px;
     justify-content: flex-start;
     margin-bottom: 0;
   }
 }
 
 /* Seção Certificados */
-#h3Cert { /* Sub-título */
+#h3Cert {
+  /* Sub-título */
   margin-top: 1.1rem;
 }
-.certificados h3, .certificados p {
+.certificados h3,
+.certificados p {
   margin-left: 0;
   text-align: left;
 }
@@ -312,7 +358,7 @@ section {
   margin-top: 2rem;
 }
 /* Animações leves de entrada e saída do certificado ao hover */
-.hidden { 
+.hidden {
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.6s ease-out;
@@ -417,7 +463,7 @@ section {
   border: 2px solid #64ffda;
   color: #64ffda;
   transition: background 0.2s, color 0.2s;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
   display: flex;
   align-items: center;
   gap: 0.7rem;
@@ -479,14 +525,15 @@ section {
 }
 
 /* Seção Projetos */
-#projetos { /* Organizão da posição dos cards */
+#projetos {
+  /* Organizão da posição dos cards */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   margin-bottom: 2rem;
 }
 /* Responsividade na posição dos cards */
-@media (max-width: 900px) { 
+@media (max-width: 900px) {
   #projetos {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -497,39 +544,53 @@ section {
   }
 }
 /*Cards dos projetos*/
-.card { /* Estilo */
-  background: #112240;
+.card {
+  /* Estilo */
+  background: transparent;
   border-radius: 10px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.8);
   transition: transform 0.2s;
   height: 100%;
 }
-.card:hover, .habilidade:hover { /* Efeito de hover */
+/* Efeito de hover */
+.card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 32px rgba(100,255,218,0.08);
+  box-shadow: 0 8px 32px rgba(100, 255, 218, 0.05);
 }
-.linguagens { /* Linguagens usadas no projeto */
+.linguagens {
+  /* Linguagens usadas no projeto */
   font-size: 0.9rem;
   color: #8892b0;
   margin-bottom: 0.7rem;
 }
-.projImg { /* Imagem do projeto */
+.projImg {
+  /* Imagem do projeto */
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
-.projInfo { /* Informação do projeto */
+.projInfo {
+  /* Informação do projeto */
   font-size: 0.85rem;
   color: #ccd6f6;
   margin-bottom: 1.2rem;
 }
-.card .btn { /* Botão para ver projeto */
+.card .btn {
+  /* Botão para ver projeto */
   margin-top: auto;
   align-self: center;
+}
+.projetos .btnCert {
+  /* Botão de ver mais projetos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 2px solid #64ffda;
 }
 
 /* Seção Habilidades */
@@ -554,7 +615,7 @@ section {
   align-items: center;
   margin: 0.8rem 0;
   margin-top: 4rem;
-  font-size: 1rem;  
+  font-size: 1rem;
 }
 /* Cards das habilidades */
 .habilidade {
@@ -563,20 +624,19 @@ section {
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
-  border: #64ffda 2px solid;
-  box-shadow: 0 4px 20px rgba(100,255,218,0.4);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.8);
   border-radius: 10px;
-  background-color:#5e667e;
+  background-color: transparent;
   width: 100px;
   height: 100px;
   margin: 1rem;
 }
 /* Ajuste na foto e posição da imagem das habilidades */
-.habilidade img {
+.habilidade i, img {
   display: flex;
-  width: 30px;
-  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1rem;
@@ -621,6 +681,18 @@ section {
 #h3Cont {
   margin-top: 6rem;
 }
+.contato-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.contato-links a {
+  width: 300px;
+  text-align: center;
+}
 /* Links */
 .contato-links i {
   margin-right: 0.5rem;
@@ -634,6 +706,4 @@ section {
   padding: 2rem 0;
   color: #8892b0;
   font-size: 0.9rem;
-
 }
-
