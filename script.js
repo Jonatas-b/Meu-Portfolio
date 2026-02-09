@@ -45,11 +45,12 @@ document.addEventListener("DOMContentLoaded", function() {
   const sobreTexto = document.getElementById("sobre-texto");
   if (sobreTexto) {
     // Texto a ser exibido com efeito de máquina de escrever
-    const texto = `Tenho 18 anos e atualmente estou no terceiro ano do ensino médio integrado ao curso técnico em Desenvolvimento de Sistemas, onde venho desenvolvendo minha base na área da programação e na construção de soluções digitais.
-Ao longo da minha formação, participei de projetos práticos. Essas experiências me proporcionaram contato direto com conceitos importantes de lógica, estruturação de código e interface com o usuário, despertando ainda mais meu interesse pelo desenvolvimento de software.
-Embora ainda esteja em processo de aprofundamento, busco constantemente aprender novas linguagens e tecnologias. Tenho interesse tanto no front-end quanto no back-end, e acredito na importância de desenvolver uma base versátil para aproveitar oportunidades em diversas áreas da programação.
-Me destaco por minha facilidade e disponibilidade para aprender, espírito de liderança, boa comunicação e resiliência frente aos desafios. Sou comprometido, levo a sério tudo aquilo que me proponho a fazer e gosto de atuar em equipe, colaborando para que ideias se transformem em resultados concretos.
-Meu objetivo é crescer como desenvolvedor, ampliando meus conhecimentos e competências para atuar em projetos reais, contribuindo para soluções inovadoras em um mercado em constante evolução.`;
+    const texto = `Desenvolvedor em formação com base técnica em Desenvolvimento de Sistemas, atuando principalmente com HTML, CSS e JavaScript. Experiência prática na construção de interfaces responsivas, componentes reutilizáveis e aplicações front-end com foco em lógica, estrutura e clareza de código.
+
+Possuo perfil analítico e autodidata, com interesse em compreender fundamentos, padrões e boas práticas, evitando soluções superficiais. Desenvolvo projetos próprios para consolidar conhecimentos em manipulação do DOM, estados de aplicação, validações, fluxos de usuário e organização de código.
+
+Atualmente direciono meus estudos para front-end, sem perder a visão de arquitetura e evolução para full stack, buscando oportunidades para aplicar conhecimento técnico em projetos reais e ambientes que valorizem qualidade e aprendizado contínuo.`;
     typeWriter(sobreTexto, texto, 18);
   }
+
 });
