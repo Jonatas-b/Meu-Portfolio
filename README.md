@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center"> Jônatas Emanuel Batista | Desenvolvedor de Sistemas </h1>
 
 <p align="center">
@@ -81,3 +80,4 @@ Esse projeto está sob a licença MIT.
 ---
 
 © 2025 Jônatas Emanuel Batista
+
