@@ -40,6 +40,7 @@ Este projeto está sob a licença *MIT*.
 ---
 
 <p align="center"><strong>© 2025 Jônatas Emanuel Batista</strong></p>
+
 =======
 <h1 align="center"> Jônatas Batista | Desenvolvedor de Sistemas </h1>
 
@@ -80,4 +81,3 @@ Esse projeto está sob a licença MIT.
 ---
 
 © 2025 Jônatas Emanuel Batista
->>>>>>> 10c2dc5 (Atualização do texto sobre e projetos exibidos)
